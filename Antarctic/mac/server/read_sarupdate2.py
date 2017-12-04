@@ -180,11 +180,11 @@ def check_update(updatesar_name, download_folder, tar_xy_range):
                 if not os.path.exists(download_folder + tifname.firstChild.data + '.tar.gz'):
                     print('start download ', tifname.firstChild.data, ' :', time.asctime(time.localtime(time.time())))
 
-                    # sarurl = 'http://www.polarview.aq/images/104_S1geotiff/' + tifname.firstChild.data +'.tar.gz'
-                    # f = urllib2.urlopen(sarurl)
-                    # data = f.read()
-                    # with open(download_folder + tifname.firstChild.data +'.tar.gz', "wb") as code:
-                    #     code.write(data)
+                    sarurl = 'http://www.polarview.aq/images/104_S1geotiff/' + tifname.firstChild.data +'.tar.gz'
+                    f = urllib2.urlopen(sarurl)
+                    data = f.read()
+                    with open(download_folder + tifname.firstChild.data +'.tar.gz', "wb") as code:
+                        code.write(data)
                     print('download successfully ', tifname.firstChild.data, ' :', time.asctime(time.localtime(time.time())))
 
             count += 1
@@ -250,12 +250,15 @@ def maindownloading(EastBoundingCoord, WestBoundingCoord, SouthBoundingCoord, No
     yes_updatesar_name = update_folder + 'sarfiles_update_' + yes_date + '.xml'
     before_updatesar_name = update_folder + 'sarfiles_update_' + before_date + '.xml'
     # dates = [today_updatesar_name, yes_updatesar_name, before_updatesar_name]
-    dates = [today_updatesar_name, yes_updatesar_name]
+    if os.path.exists(yes_updatesar_name):
+        dates = [today_updatesar_name, yes_updatesar_name]
+    else:
+        dates = [today_updatesar_name]
 
 
 
 
-    # tar_east = -162
+                 # tar_east = -162
     # tar_west = -138
     # tar_south = -79
     # tar_north = -75
