@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>	<kml xmlns="http://www.opengis.net/kml/2.2">
+		<Document>
+			<Style id="transRedPoly">
+				<LineStyle>
+				<width>1</width>
+				<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+				<color>660000ff</color>
+				</PolyStyle>
+			</Style>
+			<Style id="highlightPlacemark">
+				<IconStyle>
+				<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+				</Icon>
+				</IconStyle>
+			</Style>
+			<Style id="normalPlacemark">
+				<IconStyle>
+				<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+				</IconStyle>
+			</Style>
+			<StyleMap id="pointStyleMap">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#normalPlacemark</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#highlightPlacemark</styleUrl>
+				</Pair>
+			</StyleMap>
+							<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171127T022734_2A07_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-101.679398000000006,-67.023368999999846 -99.702220376980051,-66.604588889933453 -97.798562966324781,-66.160333231123445 -95.96836983871836,-65.692201911118943 -94.210990097283258,-65.201760097118679 -93.798644999999993,-65.08052099999972 -92.587389535211955,-65.802289861633881 -91.980834999999999,-66.144637999999802 -93.7676562723355,-66.662023814695289 -95.635906993149106,-67.157185213707166 -97.587033514323423,-67.628406179730192 -99.621844716521437,-68.073913833597132 -100.089057999999994,-68.169982999999903 -101.194370059668884,-67.387287465142109 -101.679398000000006,-67.023368999999846</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 02:27</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171127T022734_2A07_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171127T022734_2A07_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171127T022734_2A07_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171127T022734_2A07_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171127T022734_2A07_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 02:27 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-96.726518601869415,-66.658045459747527</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SSH_20171127T063028_C4FA_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-147.232224000000031,-74.744422999999983 -144.771500016386398,-74.126881945220845 -142.50096889697619,-73.483568466754917 -140.405756972560539,-72.817668135495495 -138.471310485879627,-72.132006334198593 -138.216262999999998,-72.036002999999965 -135.880825902956417,-72.588348268775718 -133.394338928937998,-73.111068724352705 -130.751963284379542,-73.60106831083246 -127.950887121036246,-74.055083408582675 -126.856048999999999,-74.215857999999997 -128.52344758559596,-75.004710054892527 -130.376575556841459,-75.780949526594085 -132.443689076960482,-76.541989051457506 -134.757690873384348,-77.284699650811675 -135.037643000000003,-77.367699000000002 -138.280926242783579,-76.818301249013828 -141.254037647098926,-76.231092172073332 -143.975263253066174,-75.610967112927696 -146.464496113339095,-74.962278685316278 -147.232224000000031,-74.744422999999983</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 06:30</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SSH_20171127T063028_C4FA_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SSH_20171127T063028_C4FA_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SSH_20171127T063028_C4FA_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SSH_20171127T063028_C4FA_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SSH_20171127T063028_C4FA_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 06:30 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-136.884647656954485,-74.706722437113712</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080134_F0A6_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-61.199558000000003,-68.313735999999906 -63.178698167108323,-67.822037887279748 -65.067864200107252,-67.306507539535744 -66.175338999999994,-66.981605999999843 -64.846858758101959,-66.272221090001324 -63.917732000000008,-65.742187999999757 -62.137062833411775,-66.244294710604962 -60.279101130004229,-66.723958440954064 -59.08621200000001,-67.00974999999984 -60.279257464059597,-67.76792403170181 -61.199558000000003,-68.313735999999906</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:01</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080134_F0A6_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080134_F0A6_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080134_F0A6_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080134_F0A6_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080134_F0A6_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:01 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-62.636756950926966,-67.033791293556405</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171126T145700_15F5_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>66.280602000000002,-62.764384999999379 68.004472318365629,-62.409037250760143 69.681411355853911,-62.030835866479293 71.310555148237512,-61.630866644194072 72.891396972885801,-61.210217654795613 73.429550000000006,-61.059352999999 74.325615968099427,-61.812037675245115 75.2727063075057,-62.560095823980213 76.274742420020701,-63.302793693539698 77.335979043048198,-64.039326062946287 77.592849999999999,-64.210364999999598 75.890900739805303,-64.688997519194416 74.122771120957111,-65.145966764032707 72.288090673175972,-65.579837359266122 70.387005932231148,-65.989148387001734 69.822945000000018,-66.103126999999773 68.88705807342933,-65.310743800148089 68.01122313133871,-64.514699757569545 67.19021247462625,-63.715668977083091 66.419342192435877,-62.914256516694635 66.280602000000002,-62.764384999999379</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 14:57</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171126T145700_15F5_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171126T145700_15F5_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171126T145700_15F5_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171126T145700_15F5_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171126T145700_15F5_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 14:57 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>71.793056984850409,-63.590855016989451</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171126T203945_3FA5_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-11.723576999999999,-69.602500999999933 -9.564736908363592,-69.137466476017039 -7.504733488228392,-68.64545993774496 -5.541897870528463,-68.128526751642283 -3.673802447107613,-67.588627251188029 -3.124144000000001,-67.42020399999987 -1.638520447667405,-68.106462175731977 -0.055418046196477,-68.778896122239004 1.63241276784835,-69.435820384037441 3.43248209716824,-70.075377445759756 4.245944000000001,-70.345527999999959 2.324372388073014,-70.97507143486375 0.271218837695851,-71.583219791234569 -1.92166700174247,-72.16748011677879 -4.261939420372254,-72.725135565026093 -4.902163000000001,-72.86688199999999 -6.681080530031288,-72.143256051721352 -8.318033650415504,-71.405438827723827 -9.826987337535749,-70.655382976312367 -11.220523430153209,-69.894791451604405 -11.723576999999999,-69.602500999999933</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 20:39</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171126T203945_3FA5_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171126T203945_3FA5_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171126T203945_3FA5_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171126T203945_3FA5_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171126T203945_3FA5_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 20:39 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-3.887122958160954,-70.144793557111797</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171127T054609_3135_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-156.751388999999989,-61.772113999999171 -155.080555716072325,-61.428150844891285 -153.452399856438575,-61.061978802912506 -151.867834616837428,-60.674595719827657 -150.327458617607135,-60.267005362564866 -149.743668000000014,-60.104171999998698 -148.900361269860895,-60.859978230087911 -148.010294114928939,-61.611883563288153 -147.06993391094241,-62.359226635429806 -146.527817000000027,-62.769626999999382 -148.164439355655446,-63.224409792143611 -149.858301395757167,-63.658149714358693 -151.609342369363276,-64.069584421891975 -153.417070594810752,-64.457439694323895 -154.036117999999988,-64.582061999999638 -154.870435540902491,-63.78500337444504 -155.653795283790714,-62.985396682216376 -156.390459658870753,-62.183800816730219 -156.751388999999989,-61.772113999999171</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 05:46</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171127T054609_3135_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171127T054609_3135_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171127T054609_3135_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171127T054609_3135_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171127T054609_3135_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 05:46 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-151.718639120507078,-62.359642468612748</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171127T072013_1865_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-148.405685000000005,-77.213302999999996 -146.034009091650546,-76.482070992059761 -143.910864779288829,-75.731367557985607 -142.004136436992866,-74.964443392842725 -140.285980611314187,-74.183999254718941 -140.169647000000026,-74.127715999999992 -137.190768342118787,-74.539623903201985 -135.244948999999991,-74.775863999999984 -136.768163097320752,-75.593491941184794 -138.475449641668888,-76.401219520988704 -140.398660948448196,-77.196747922173472 -142.576247874989491,-77.97723354983431 -142.726593000000008,-78.027016000000003 -146.345817457349028,-77.535020340791675 -148.405685000000005,-77.213302999999996</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 07:20</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171127T072013_1865_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171127T072013_1865_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171127T072013_1865_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171127T072013_1865_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171127T072013_1865_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 07:20 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-141.249555574210092,-76.077220447768042</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171126T212909_D70D_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-20.046784999999996,-71.70934299999999 -17.7397176003943,-71.193460227865941 -15.561159687244915,-70.650041659279566 -13.506454653081382,-70.081589082817743 -11.570183714778967,-69.490442492524323 -11.062144,-69.325652999999932 -9.286571858724066,-69.969971683123489 -7.392392973214596,-70.59535688270222 -5.371891188436389,-71.199608625199389 -3.217548388104299,-71.780323018957176 -2.301439,-72.009177999999977 -4.206221188884824,-72.698772125250798 -6.269220975008744,-73.369129050166507 -8.504938097180352,-74.017487838389599 -10.928283382462769,-74.640732134353144 -11.532597000000001,-74.784583999999981 -13.779168373867581,-74.110368786737695 -15.837942814948327,-73.415127123693807 -17.726823717437277,-72.701706488260896 -19.462371348931519,-71.972584686844968 -20.046784999999996,-71.70934299999999</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 21:29</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171126T212909_D70D_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171126T212909_D70D_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171126T212909_D70D_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171126T212909_D70D_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171126T212909_D70D_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 21:29 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-11.252408358622667,-72.054633361066507</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171127T040323_67A4_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-113.023567,-73.832283000000004 -110.600967962493442,-73.247016301411193 -108.347703911637836,-72.63513960174933 -106.252897533370245,-71.999644103029894 -104.305444589897732,-71.343230655009606 -104.070068000000006,-71.259200999999976 -101.937070913017351,-71.85069166633788 -99.661232692683782,-72.41665679329509 -97.235643194766098,-72.954269644861185 -94.654604265582961,-73.460494890956454 -93.623215000000002,-73.645531000000005 -95.407481679470109,-74.403607515464643 -97.37438356432601,-75.146495484695848 -99.548048722624216,-75.871414686324002 -101.955536750936886,-76.575077045398714 -102.208504000000005,-76.643653999999998 -105.087306126960755,-76.041846678528486 -107.720075513721085,-75.408871822391163 -110.127272017460371,-74.748896065743409 -112.329211062641534,-74.065571882973529 -113.023567,-73.832283000000004</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 04:03</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171127T040323_67A4_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171127T040323_67A4_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171127T040323_67A4_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171127T040323_67A4_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171127T040323_67A4_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 04:03 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-103.279418418160802,-73.952665973226701</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171127T054409_3BE2_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-149.992370999999991,-67.872016999999886 -147.956967471544914,-67.439384175557947 -146.002360103275947,-66.980738292489022 -144.128112861130774,-66.497812100655167 -142.333137284296527,-65.992290738126698 -141.834854000000007,-65.844001999999776 -140.550575635861492,-66.558197420009932 -139.183934455131322,-67.261944796761099 -137.728459256741019,-67.953903452065603 -136.17727091391572,-68.632591593460347 -135.923125999999996,-68.738433999999927 -137.810008217588631,-69.319174558772374 -139.806089615570585,-69.877664765177812 -141.915850102119009,-70.411725713691453 -144.143059526944597,-70.919041667013502 -144.701523000000037,-71.037833999999975 -146.14742845737058,-70.281400667493969 -147.483856769555587,-69.515268955255095 -148.721486543035638,-68.740825855217082 -149.869846703083226,-67.959288259837436 -149.992370999999991,-67.872016999999886</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 05:44</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171127T054409_3BE2_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171127T054409_3BE2_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171127T054409_3BE2_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171127T054409_3BE2_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171127T054409_3BE2_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 05:44 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-143.093668597885653,-68.445998871165344</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171126T204150_CB02_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-19.952507000000004,-63.034095999999423 -18.212707199452481,-62.676553137298313 -16.5209906022579,-62.295947047301361 -14.878217466324266,-61.893387667841829 -13.284877570772579,-61.469986419247704 -12.650164999999999,-61.291827999999065 -11.73879502522075,-62.04316786985472 -10.775227014179286,-62.789662636511686 -9.755439145027065,-63.530557374141551 -8.67506953226173,-64.265023240550306 -8.418023999999997,-64.432624999999632 -10.128915036507445,-64.91600951938031 -11.907600296588535,-65.377677627600974 -13.754556227422109,-65.816163856379731 -15.669729489646032,-66.22997404804201 -16.355626999999998,-66.368613999999809 -17.307767550127753,-65.576586880864625 -18.198228847822143,-64.780728455932888 -19.032425002586294,-63.981732309004343 -19.815203122004796,-63.180220214243825 -19.952507000000004,-63.034095999999423</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 20:41</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171126T204150_CB02_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171126T204150_CB02_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171126T204150_CB02_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171126T204150_CB02_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171126T204150_CB02_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 20:41 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-14.328000983248787,-63.840544364675239</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080019_5A14_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-55.464378000000004,-64.332534999999609 -57.225788162136709,-63.914352348494141 -58.928250356634479,-63.473836802481095 -59.992710000000002,-63.179133999999451 -59.003507221014701,-62.43455393536879 -58.283721999999997,-61.861571999999185 -56.677695955609629,-62.2946484385239 -55.019968911980527,-62.706825021618073 -53.900482000000004,-62.966227999999411 -54.771876377246137,-63.746985730414536 -55.464378000000004,-64.332534999999609</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:00</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080019_5A14_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080019_5A14_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080019_5A14_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080019_5A14_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080019_5A14_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:00 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-56.939297394215131,-63.104354925510087</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171126T204350_198D_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-25.191377999999997,-56.225150999996671 -23.771922734587857,-55.935912165170166 -22.378590712607664,-55.627755081555691 -21.012268940070776,-55.301320937700908 -19.673687663019329,-54.957265129521943 -18.949776,-54.760837999995431 -18.340545559724724,-55.52565682001061 -17.701967135577956,-56.289685332470768 -17.032038486645764,-57.052542116694276 -16.328590278368562,-57.813814572353976 -16.108975999999998,-58.043582999997824 -17.550666585413115,-58.432325806128596 -19.029217757931697,-58.802237675131529 -20.544017233058451,-59.152469710077789 -22.094219922220908,-59.482181497294263 -22.838676000000003,-59.630588999998544 -23.440243228336197,-58.829983860007395 -24.010236779755019,-58.029290667824341 -24.550974396328819,-57.228840791238781 -25.064562817313892,-56.428938908215876 -25.191377999999997,-56.225150999996671</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 20:43</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171126T204350_198D_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171126T204350_198D_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171126T204350_198D_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171126T204350_198D_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171126T204350_198D_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 20:43 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-20.760286766860418,-57.208285246388066</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SSH_20171127T031320_6E62_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-93.963195999999996,-75.706879000000001 -91.503739730925631,-75.04709791882334 -89.257930938348565,-74.363408441780081 -87.205159691110168,-73.659118895579695 -85.326206251756972,-72.937096092433094 -85.204414,-72.887465999999975 -82.644067774954081,-73.398140031041507 -81.513237000000004,-73.604079999999996 -83.303433296295225,-74.360155034116985 -85.275818045051565,-75.100891996566276 -87.454228201012754,-75.8235035624094 -89.865331098136707,-76.524698003815573 -90.018600000000006,-76.566162000000006 -92.871773843879481,-75.962048414678179 -93.963195999999996,-75.706879000000001</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 03:13</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SSH_20171127T031320_6E62_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SSH_20171127T031320_6E62_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SSH_20171127T031320_6E62_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SSH_20171127T031320_6E62_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SSH_20171127T031320_6E62_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 03:13 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-87.304301438420239,-74.736892580341518</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171126T221741_658F_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-26.119935999999999,-73.98415399999999 -23.692126548576908,-73.393047327935619 -21.43700398539757,-72.775491692378566 -19.343058632184384,-72.134509856195251 -17.398635926349911,-71.472822862548426 -17.195593000000002,-71.399680999999973 -15.032806259555231,-71.986545116126578 -13.580762000000002,-72.346801999999997 -15.48374244551843,-73.046837449296348 -17.550707941438557,-73.728027487847882 -19.797676431153839,-74.387558376305762 -22.241345500975974,-75.02223146861013 -22.492087999999995,-75.082970000000003 -24.794583598704602,-74.410957824469989 -26.119935999999999,-73.98415399999999</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 22:17</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171126T221741_658F_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171126T221741_658F_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171126T221741_658F_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171126T221741_658F_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171126T221741_658F_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 22:17 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-19.536880434318306,-73.256457658032033</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171127T054309_9C24_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-144.700911999999988,-71.038138999999973 -142.44472176714109,-70.537667423206059 -140.306762161927821,-70.009869583722505 -138.283475662131622,-69.457092859972519 -136.37053070394424,-68.881550201451034 -135.920989999999989,-68.738227999999921 -134.26626063462183,-69.404800725302053 -132.499903468452771,-70.054730608964448 -130.61394656322355,-70.686016022629573 -128.600343123808756,-71.2964553963985 -128.349487000000011,-71.368270999999964 -130.27704472216891,-72.031397219717121 -132.352343785357476,-72.674092648557078 -134.586933305536888,-73.293675162171411 -136.992254689937454,-73.88716478548308 -137.519012000000004,-74.007934999999989 -139.520359582872459,-73.302859174526901 -141.355502130810834,-72.580602503242048 -143.040985758815253,-71.843538433603172 -144.591812528928784,-71.093727564181094 -144.700911999999988,-71.038138999999973</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 05:43</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171127T054309_9C24_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171127T054309_9C24_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171127T054309_9C24_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171127T054309_9C24_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171127T054309_9C24_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 05:43 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-136.598343530452155,-71.373924356387505</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171127T113113_856C_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>116.871077999999997,-61.815532999999178 118.54426749786218,-61.471182815739297 120.17461306098231,-61.104592933478784 121.761201809199548,-60.716764715115858 123.303437236988444,-60.308705338408913 123.801636000000016,-60.170043999998718 124.646968917499109,-60.926056782773109 125.539287311023699,-61.678145771193662 126.236587999999998,-62.235412999999276 124.621192925563392,-62.679968436668524 122.951649498391077,-63.103654044125655 121.228166925390312,-63.505267605616559 119.451358121776551,-63.883599756930884 118.926865000000006,-63.98866699999958 118.129448984332825,-63.189945688689058 117.379845700030316,-62.389078688638122 116.871077999999997,-61.815532999999178</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 11:31</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171127T113113_856C_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171127T113113_856C_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171127T113113_856C_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171127T113113_856C_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171127T113113_856C_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 11:31 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>121.532103904019479,-62.102416554803561</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171127T054204_7D23_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-137.51817299999999,-74.008217000000002 -135.075653278132421,-73.420592209551273 -132.806212697443215,-72.80621123472983 -130.6984885975059,-72.168118309647539 -128.740920127244323,-71.509056653104807 -128.34790000000001,-71.368247999999966 -126.171062161509113,-71.948343188656807 -123.8507676216541,-72.501944216323992 -121.380746593083146,-73.026180766027068 -118.756123319474511,-73.517987086912555 -117.709175000000002,-73.697097999999997 -119.471456402001223,-74.460216197189169 -121.416135106582288,-75.208603486944014 -123.56781975706987,-75.939520101275448 -125.954274306215495,-76.649715761396976 -126.417411999999999,-76.776771999999994 -129.370652095901931,-76.186771851223313 -132.073409267664147,-75.564211941258591 -134.545657929528886,-74.913404578389091 -136.80757069192012,-74.238142391940841 -137.51817299999999,-74.008217000000002</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 05:42</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171127T054204_7D23_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171127T054204_7D23_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171127T054204_7D23_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171127T054204_7D23_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171127T054204_7D23_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 05:42 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-127.529746522753982,-74.074031249125937</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T062544_0CD6_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-61.883575000000008,-76.260718999999995 -63.898532267462031,-75.498467765949755 -65.708439138129819,-74.72152884038745 -66.513451000000003,-74.343590000000006 -63.675227483490751,-73.882837547966062 -61.075771000000003,-73.400283999999999 -59.211284084253471,-74.137316106935373 -57.164987631064513,-74.857370793289576 -56.097343000000009,-75.200653000000003 -58.942503260860654,-75.759493798322396 -61.883575000000008,-76.260718999999995</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 06:25</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T062544_0CD6_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T062544_0CD6_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T062544_0CD6_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T062544_0CD6_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T062544_0CD6_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 06:25 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-61.44915094559871,-74.830095068241818</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080314_1879_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-72.580391000000006,-73.177459999999982 -74.775556268545799,-72.550807159088265 -76.813681421438218,-71.901760884035269 -77.920096999999998,-71.519065999999981 -75.889884935437024,-70.90565408884288 -74.524780000000007,-70.456092999999967 -72.576731923949325,-71.080628959831486 -70.495727768361007,-71.683250148412512 -69.217239000000006,-72.023651000000001 -71.140065557485713,-72.708998415334889 -72.580391000000006,-73.177459999999982</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:03</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080314_1879_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080314_1879_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080314_1879_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080314_1879_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080314_1879_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:03 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-73.630400004117064,-71.818730250113575</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171126T163450_5152_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>46.770641000000005,-67.272422999999861 48.763972202194864,-66.849182689400706 50.68168498885256,-66.400327846389175 52.523948248862666,-65.927496523788449 54.291541426149323,-65.432288276222579 54.640423000000006,-65.329444999999737 55.91157773389159,-66.037786452409335 57.261850735001772,-66.735710199762266 57.638762999999997,-66.921226999999845 55.820049798238713,-67.456440255986678 53.912540005993264,-67.969327606507221 51.914113733668145,-68.458044269150435 49.823329131863581,-68.920670051478766 49.443953999999998,-68.999610999999916 48.198882952860103,-68.234403535683796 47.040705082456142,-67.461763988618927 46.770641000000005,-67.272422999999861</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 16:34</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171126T163450_5152_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171126T163450_5152_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171126T163450_5152_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171126T163450_5152_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171126T163450_5152_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 16:34 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>52.258054820757543,-67.186581165095461</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171126T213413_8BE2_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-37.017966999999999,-56.99752799999721 -35.567361690734955,-56.701662631889526 -34.144608585456645,-56.386448229289968 -32.750616254326069,-56.052564484126052 -31.386120906806326,-55.700704958649652 -30.680868000000004,-55.508769999996105 -30.041832921962264,-56.272521453280042 -29.419273000000008,-56.981948999997194 -30.820912436279436,-57.358649531520527 -32.256224065123142,-57.71703729726066 -33.724570194903478,-58.056330796257519 -35.225110113735894,-58.375758603179918 -35.973396000000001,-58.525104999998071 -36.533549795054789,-57.724771034645791 -37.017966999999999,-56.99752799999721</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 21:34</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171126T213413_8BE2_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171126T213413_8BE2_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171126T213413_8BE2_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171126T213413_8BE2_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171126T213413_8BE2_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 21:34 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-33.20340380642174,-57.049167823171814</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171126T213213_5B07_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-33.265113999999997,-61.945617999999214 -31.584133272949874,-61.600838752853655 -29.946432568775403,-61.233705342895576 -28.352933256074454,-60.845228706111754 -26.804234524103233,-60.436425525336738 -26.162804000000008,-60.257659999998758 -25.312494559484499,-61.01332885108819 -24.41481357206564,-61.765004914841683 -23.466168727248192,-62.512017150684898 -22.462660331259499,-63.253630547349047 -22.204747999999999,-63.436671999999497 -23.871020661358902,-63.902464123707503 -25.598489814284349,-64.3469283429841 -27.387274812537296,-64.768725255372743 -29.237026008507701,-65.166497792711269 -29.922062,-65.304412999999741 -30.800508122450832,-64.508948911959692 -31.624015265313943,-63.710461485022662 -32.397270643031256,-62.909558582273498 -33.124480180201139,-62.106787687564243 -33.265113999999997,-61.945617999999214</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 21:32</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171126T213213_5B07_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171126T213213_5B07_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171126T213213_5B07_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171126T213213_5B07_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171126T213213_5B07_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 21:32 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-27.874186286894705,-62.791868198637594</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171127T070941_9920_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-36.190655,-60.498988999998829 -37.798303409536445,-60.169905565058713 -39.368134034947026,-59.819387101149665 -40.899193128458627,-59.448329667502982 -42.390794624436538,-59.057638958291321 -42.92955400000001,-58.909137999998244 -42.179184873249163,-58.149420271941516 -41.465583701278987,-57.387547139637739 -40.786318624980709,-56.623976855527204 -40.139147517566116,-55.859132033542799 -39.733013,-55.359363999995985 -38.38824907481947,-55.717369896224419 -37.014129065686319,-56.057801985995397 -35.611313020721362,-56.379970989741025 -34.180626271905048,-56.683199518751074 -33.531314999999999,-56.812644999997097 -34.055103057770609,-57.613345481623291 -34.606907441675069,-58.414481540270522 -35.188926632270395,-59.215738286045983 -35.803581555243454,-60.016772849759242 -36.190655,-60.498988999998829</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 07:09</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171127T070941_9920_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171127T070941_9920_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171127T070941_9920_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171127T070941_9920_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171127T070941_9920_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 07:09 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-38.091362560844004,-57.937410029784544</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SSH_20171127T063132_574D_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-155.114563000000004,-71.854781999999986 -152.80830135904705,-71.330344490480613 -150.633385145003103,-70.77864602961607 -148.58465522964039,-70.202217282346069 -146.656240299998615,-69.603416812470584 -146.343459999999993,-69.500724999999946 -144.563926364357314,-70.149319783120561 -142.663613027394661,-70.779050100104627 -140.634422929045286,-71.387688036885649 -138.468421909912962,-71.972793369081913 -138.218642999999986,-72.036323999999979 -140.132146521876365,-72.72448556778528 -142.20446174263472,-73.39324642360225 -144.450066231094127,-74.039828226253263 -146.883815877287617,-74.661096564864209 -147.233138999999994,-74.744147999999996 -149.437852813581941,-74.061623167956597 -151.456760389255919,-73.358870349183789 -153.307972712615225,-72.638661216497113 -155.008129672727136,-71.903402243551497 -155.114563000000004,-71.854781999999986</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 06:31</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SSH_20171127T063132_574D_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SSH_20171127T063132_574D_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SSH_20171127T063132_574D_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SSH_20171127T063132_574D_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SSH_20171127T063132_574D_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 06:31 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-146.712730319406575,-72.122103334084912</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171127T071045_C453_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-38.895328999999997,-63.542602999999509 -40.662948114084351,-63.178038095342487 -42.37992873492518,-62.790099051978807 -44.045465729607635,-62.379947292790483 -45.659148772435593,-61.948742923387172 -46.150413999999998,-61.810527999999188 -45.246873374758096,-61.059900882966943 -44.391019880293783,-60.305195184700075 -43.57952865969407,-59.547030809578004 -42.931109999999997,-58.909121999998234 -41.454168441218656,-59.306826971508094 -39.937578977094319,-59.685233577954705 -38.381933664973744,-60.043434244466262 -36.788085458238214,-60.380528526904264 -36.19092599999999,-60.499328999998824 -36.845427392141602,-61.302789747226271 -37.539217380684356,-62.105217189391354 -38.27572001897763,-62.906154058757799 -38.895328999999997,-63.542602999999509</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 07:10</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171127T071045_C453_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171127T071045_C453_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171127T071045_C453_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171127T071045_C453_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171127T071045_C453_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 07:10 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-41.070536464407056,-61.240084329593905</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171127T022634_FD2F_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-100.088593000000003,-68.170302999999905 -98.034980561551905,-67.730797109192295 -96.065135902707084,-67.26517422137384 -94.178411088614808,-66.775218151294951 -92.373490957224107,-66.262658762698649 -91.978165000000004,-66.144294999999801 -90.66283478321111,-66.855068916128687 -89.26254994279661,-67.554904648166811 -87.770650563228813,-68.242407592936857 -86.180075981723022,-68.916036149407518 -85.927177,-69.017920999999944 -87.824398228349239,-69.605704624024384 -89.834358624767901,-70.171270771113299 -91.962008948027702,-70.712385215121117 -94.211596162854576,-71.226665088876743 -94.638344000000004,-71.318015999999972 -96.130516972314823,-70.566091629358723 -97.508787639692798,-69.803861254651437 -98.784292047091753,-69.032786097922326 -99.966977322616316,-68.254146867974541 -100.088593000000003,-68.170302999999905</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 02:26</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171127T022634_FD2F_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171127T022634_FD2F_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171127T022634_FD2F_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171127T022634_FD2F_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171127T022634_FD2F_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 02:26 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-93.144385799267397,-68.735311345893649</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080249_ADB6_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-69.217055999999999,-72.02358199999999 -71.379338147032527,-71.434901680852548 -73.403943878041929,-70.822854945957559 -74.523078999999996,-70.456534999999974 -72.706637952704327,-69.810170099929067 -71.475303999999994,-69.335517999999951 -69.553509221266992,-69.926160382593054 -67.51515057488308,-70.49430479595182 -66.253349,-70.818610999999976 -67.942804045700882,-71.530349199690818 -69.217055999999999,-72.02358199999999</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:02</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080249_ADB6_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080249_ADB6_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080249_ADB6_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080249_ADB6_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080249_ADB6_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:02 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-70.429028574843798,-70.682654561275783</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171127T081114_050D_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>176.203583000000009,-69.812232999999964 178.368844225987544,-69.338035781999963 179.999975224535717,-68.946173643385677 179.999974104792159,-69.838216648243346 179.999972879042474,-70.732642308695901 179.999971531485301,-71.629354188797151 179.999971314669551,-71.765957003180262 178.439085472384164,-71.019789493113407 176.999160036356216,-70.262437911321783 176.203583000000009,-69.812232999999964</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-179.99997522455061,-68.946161260716295 -178.015330592921316,-68.425516057165552 -176.128386530219416,-67.881711485531241 -175.431564000000009,-67.667914999999866 -173.929882538631688,-68.355077791714891 -172.328431888202459,-69.028226705518819 -170.777266999999995,-69.627463999999947 -172.691605236976329,-70.232620422787051 -174.726937040909121,-70.815782877953552 -176.889461265857591,-71.374595641173144 -179.184722735378216,-71.906524008409036 -179.522919000000002,-71.979987999999992 -179.999971314627771,-71.765983117864707 -179.99997268229987,-70.868931936610096 -179.999973925490281,-69.97415217022909 -179.999975060454233,-69.08174048502238 -179.99997522455061,-68.946161260716295</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:11</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171127T081114_050D_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171127T081114_050D_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171127T081114_050D_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171127T081114_050D_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171127T081114_050D_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:11 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-177.249838268126069,-69.835567574159839</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080339_1E5D_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-76.434319000000002,-74.261459000000002 -78.629832297734424,-73.593689888897458 -80.648863036116353,-72.905158147979748 -81.725600999999997,-72.504966999999979 -79.445699946155699,-71.936153566926521 -77.921813999999998,-71.518584999999987 -75.968902387152227,-72.179333259304059 -73.865678409086755,-72.819231027821544 -72.580596999999997,-73.177520999999999 -74.790617319970977,-73.825398245345482 -76.434319000000002,-74.261459000000002</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:03</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080339_1E5D_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080339_1E5D_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080339_1E5D_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080339_1E5D_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080339_1E5D_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:03 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-77.243487692979031,-72.890785462649916</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080224_B2F2_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-66.253180999999998,-70.818534999999954 -68.362961675795617,-70.264764091924761 -70.352981681655322,-69.687152901347673 -71.473258999999999,-69.336051999999938 -69.840868521230945,-68.664391963957726 -68.723975999999993,-68.169166999999902 -66.842312544245644,-68.728240943240323 -64.858910970075684,-69.264599016491857 -63.618808999999999,-69.574607999999955 -65.116168456393268,-70.305549680725434 -66.253180999999998,-70.818534999999954</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:02</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080224_B2F2_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080224_B2F2_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080224_B2F2_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080224_B2F2_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080224_B2F2_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:02 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-67.571719389627617,-69.498019660065381</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SSH_20171127T045143_684B_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-122.282561999999999,-74.771895999999998 -119.827645708426886,-74.15146964367959 -117.563558601726612,-73.505456499558818 -115.475180958175244,-72.837037728401199 -113.547768328218709,-72.149031366294977 -113.375038000000004,-72.083701999999974 -111.040167937081691,-72.638902638730642 -108.553000290019682,-73.164568899760852 -105.908454315339057,-73.657586025118022 -103.103468730854928,-74.114665462677749 -102.175903000000005,-74.252196999999995 -103.847826370214619,-75.041035158962842 -105.706440186078737,-75.817211172192813 -107.780213478844885,-76.578123265761761 -110.102305143758997,-77.320623587891362 -110.276000999999994,-77.372078000000002 -113.50639188866306,-76.818722591564764 -116.46595676077763,-76.227893037245948 -119.173462249308741,-75.604471133661463 -121.649146818948509,-74.952789721819002 -122.282561999999999,-74.771895999999998</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 04:51</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SSH_20171127T045143_684B_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SSH_20171127T045143_684B_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SSH_20171127T045143_684B_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SSH_20171127T045143_684B_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SSH_20171127T045143_684B_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 04:51 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-112.074404626571209,-74.732350197600283</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171126T145556_8229_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>69.823334000000003,-66.103454999999798 71.743602039388918,-65.701543283268904 73.59761404243028,-65.274644734157391 75.385058877074542,-64.824225464299573 77.106165102272001,-64.351729463165128 77.595366999999996,-64.210074999999605 78.720424880185121,-64.942276185106365 79.915006459859868,-65.666512067366099 81.184620531351598,-66.38170511062674 82.535193670729299,-67.086665702286439 83.212708000000006,-67.420371999999873 81.371305356114163,-67.966122321345495 79.436086928046308,-68.489443040056898 77.404458054759871,-68.98840220502575 75.274529211039791,-69.460979530447744 74.747085999999996,-69.570548999999957 73.491717899156967,-68.798888688734024 72.32682839813954,-68.01987918291465 71.243842624157054,-67.234616483576673 70.235114031873636,-66.444068686541613 69.823334000000003,-66.103454999999798</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 14:55</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171126T145556_8229_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171126T145556_8229_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171126T145556_8229_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171126T145556_8229_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171126T145556_8229_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 14:55 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>76.333868122466725,-66.89493198319397</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171126T213313_F1F7_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-35.973151999999992,-58.525443999998068 -34.457159972446192,-58.216047240400584 -32.972872086850998,-57.886411109032629 -31.521232783990907,-57.537300099322842 -30.102978003658045,-57.169491448854323 -29.417211999999996,-56.981791999997192 -28.724923118651937,-57.745360134275636 -27.997288074153346,-58.507064249547291 -27.231782660517332,-59.266430869620173 -26.425667262361042,-60.022945315318637 -26.165681999999997,-60.258040999998748 -27.695383620097179,-60.675101512566755 -29.270047230416608,-61.072263871712572 -30.889201286123814,-61.4485113420155 -32.552063358374426,-61.802829597995334 -33.265408000000001,-61.945285999999214 -33.96061653681646,-61.144475498868871 -34.616724673076938,-60.34260018006372 -35.23678242212948,-59.540076797831745 -35.823547590541644,-58.737285672842262 -35.973151999999992,-58.525443999998068</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 21:33</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171126T213313_F1F7_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171126T213313_F1F7_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171126T213313_F1F7_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171126T213313_F1F7_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171126T213313_F1F7_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 21:33 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-31.194034919771546,-59.475400106102029</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171127T040427_C740_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-117.849266,-71.942275999999993 -115.538359270604914,-71.414942749795529 -113.360311577818209,-70.860379565350584 -111.309756647040061,-70.281136745741946 -109.380628709358064,-69.679587880759513 -109.108260999999999,-69.589866999999956 -107.311363704614479,-70.235544713901859 -105.392589826257137,-70.862033772715691 -104.071655000000007,-71.259223999999975 -106.001387791666204,-71.918078973709683 -108.077079574096288,-72.55633507384411 -110.309833751729215,-73.171326935702723 -112.710579851184477,-73.760100520531225 -113.024383999999998,-73.832007999999988 -114.992898521696446,-73.124724607538454 -116.79910899217856,-72.400684580959791 -117.849266,-71.942275999999993</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 04:04</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171127T040427_C740_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171127T040427_C740_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171127T040427_C740_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171127T040427_C740_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171127T040427_C740_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 04:04 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-110.826529999640599,-71.720200286260905</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080109_6B52_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-59.086093999999989,-67.009673999999848 -60.992566435280715,-66.544769790969326 -62.821071609799809,-66.056405798082622 -63.915469999999992,-65.742736999999764 -62.715166705039373,-65.018845255355927 -61.865349000000002,-64.473342999999645 -60.142244869447985,-64.950523260553666 -58.351710577366809,-65.405680687032046 -57.184356999999999,-65.681502999999765 -58.253752205389056,-66.449507534210525 -59.086093999999989,-67.009673999999848</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:01</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080109_6B52_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080109_6B52_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080109_6B52_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080109_6B52_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080109_6B52_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:01 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-60.549845998771566,-65.747955894326083</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171126T145800_0B42_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>64.068252999999999,-60.18600499999873 65.660313573686878,-59.85965906876946 67.215576538101033,-59.512086062637991 68.733091720178379,-59.144160116281633 70.212166032043413,-58.75676548849524 70.788321999999994,-58.597842999998093 71.55292515718746,-59.358412866592325 72.358270657432087,-60.116157301426568 73.207358943255429,-60.870516078051814 73.427886999999998,-61.059394999999 71.8638686305043,-61.486958905536412 70.251451215823181,-61.894219547130476 68.591025412350703,-62.280090083979104 66.883327617494913,-62.643482951025135 66.280288999999996,-62.764052999999372 65.547011502781857,-61.963723096974505 64.856035623057934,-61.161928580706416 64.2039881807641,-60.359123328400059 64.068252999999999,-60.18600499999873</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 14:58</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171126T145800_0B42_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171126T145800_0B42_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171126T145800_0B42_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171126T145800_0B42_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171126T145800_0B42_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 14:58 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>68.692364085222607,-60.700684795545001</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171126T213013_E88C_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-25.663874000000003,-68.574622999999931 -23.577912612909046,-68.130231096418072 -21.579432777913258,-67.659378099941875 -19.667605006166013,-67.163916278320471 -17.840898594021777,-66.645637569367267 -17.286068000000004,-66.478927999999826 -15.932748206990079,-67.185052722914904 -14.491426855972595,-67.879624451402378 -12.955245458140071,-68.56118277055711 -11.316961104567927,-69.228113542910492 -11.064332999999998,-69.325866999999946 -12.969411149794251,-69.922791545828858 -14.991353734822221,-70.497629207421099 -17.135734672454099,-71.048085171405049 -19.40744852168951,-71.571700789725838 -20.047428,-71.709037999999978 -21.589775589223763,-70.960105347154311 -23.012546508223767,-70.200269143649592 -24.327561598628154,-69.431074443098296 -25.545375861604342,-68.653872502817919 -25.663874000000003,-68.574622999999931</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 21:30</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171126T213013_E88C_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171126T213013_E88C_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171126T213013_E88C_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171126T213013_E88C_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171126T213013_E88C_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 21:30 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-18.490662304177128,-69.09858392141264</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T075954_6143_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-53.900393999999991,-62.966147999999414 -55.591973321707805,-62.568360668834984 -57.232055195860333,-62.148913387556263 -58.28132999999999,-61.8621289999992 -57.379236005682593,-61.110476452687216 -56.713172999999991,-60.525168999998826 -55.164525627380861,-60.938733400367504 -53.570396868254271,-61.332039838147608 -52.472484999999999,-61.584750999999116 -53.264065052746169,-62.369222131562793 -53.900393999999991,-62.966147999999414</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 07:59</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T075954_6143_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T075954_6143_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T075954_6143_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T075954_6143_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T075954_6143_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 07:59 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-55.367629845690615,-61.753232293490804</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171126T213113_EC47_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-29.921693999999995,-65.304740999999723 -28.050022024954941,-64.916004660340874 -26.239063578914372,-64.502749904608365 -24.489353788897475,-64.06633746155228 -22.800935786065427,-63.608114394481177 -22.203636000000003,-63.436786999999505 -21.140454607542111,-64.174753660323773 -20.01289448083385,-64.905674136244272 -18.815883377216707,-65.628569091881374 -17.543948431192767,-66.34235877049619 -17.288765000000001,-66.479285999999803 -19.08931000086988,-67.004321247399133 -20.974375548298514,-67.507084359698922 -22.945681242113544,-67.985804871878599 -25.004291021225352,-68.438647870846069 -25.664351999999997,-68.574309999999926 -26.808635658556977,-67.794173446045789 -27.873116235728382,-67.008016700483196 -28.865197231554319,-66.216779444055334 -29.791483543104636,-65.421295520907279 -29.921693999999995,-65.304740999999723</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 21:31</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171126T213113_EC47_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171126T213113_EC47_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171126T213113_EC47_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171126T213113_EC47_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171126T213113_EC47_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 21:31 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-23.750740450918787,-66.013998856034419</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171126T204250_A733_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-22.838418999999998,-59.630927999998519 -21.271835459337499,-59.311198983998459 -19.74017157230583,-58.970557105774319 -18.244387520335547,-58.609836634948842 -16.785203690968395,-58.229883229432872 -16.106856999999998,-58.043414999997829 -15.369025564179637,-58.805418982866541 -14.592441132872052,-59.56495817581434 -13.774277367786508,-60.321505056152752 -12.911465147065593,-61.074484780814537 -12.652478,-61.292052999999065 -14.225668431809307,-61.723598039347323 -15.848392031784469,-62.134751127375083 -17.520299274155281,-62.524402774337595 -19.240684518804805,-62.891441363440229 -19.952824,-63.033763999999422 -20.699345955753895,-62.233672600421102 -21.402436336460692,-61.431976974121127 -22.06558377192221,-60.629144237507575 -22.691934568698656,-59.825598980177368 -22.838418999999998,-59.630927999998519</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 20:42</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171126T204250_A733_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171126T204250_A733_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171126T204250_A733_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171126T204250_A733_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171126T204250_A733_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 20:42 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-17.875146733771171,-60.550346038967668</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T075925_A2AC_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-52.472404000000004,-61.584670999999119 -54.096840347913108,-61.205571822714312 -55.676126351061271,-60.805522022918389 -56.710697000000003,-60.525741999998836 -55.884812378342403,-59.769005112706928 -55.101162665331678,-59.00918890425438 -55.044716000000001,-58.952800999998274 -53.56063570633394,-59.345566898520815 -52.037193622376805,-59.718851162582382 -50.96172700000001,-59.964957999998646 -51.67306976454519,-60.752001700043365 -52.425449719741465,-61.537190994183248 -52.472404000000004,-61.584670999999119</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 07:59</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T075925_A2AC_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T075925_A2AC_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T075925_A2AC_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T075925_A2AC_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T075925_A2AC_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 07:59 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-53.81423471438162,-60.274975366003126</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080159_E55C_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-63.618659999999991,-69.574531999999948 -65.664727993898296,-69.05278793496656 -67.606983214233637,-68.507099310473166 -68.721969999999999,-68.169661999999903 -67.218120128309721,-67.487545618225781 -66.177482999999995,-66.981078999999852 -64.342185332686839,-67.510252603892127 -62.418166950180165,-68.016714798487698 -61.199692000000013,-68.313811999999913 -62.570599015885868,-69.051040355865211 -63.618659999999991,-69.574531999999948</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:01</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080159_E55C_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080159_E55C_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080159_E55C_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080159_E55C_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080159_E55C_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:01 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-64.976853291053118,-68.282722115275206</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171127T061938_7B61_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-22.168891999999996,-58.265696999997935 -23.673217650842556,-57.958405751341793 -25.146519411636064,-57.631035970283065 -26.587860171199104,-57.284337194910997 -27.996504603929086,-56.919071891521881 -28.505316000000001,-56.780471999997069 -27.849490495050976,-56.016446721567853 -27.381949999999993,-55.447944999996054 -26.033324654298671,-55.805891333608116 -24.655198920356082,-56.146197920306555 -23.248240470006863,-56.468172234464426 -21.813284103008446,-56.771133802786011 -21.234691999999999,-56.886256999997137 -21.766160675082247,-57.686000650431225 -22.168891999999996,-58.265696999997935</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 06:19</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171127T061938_7B61_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171127T061938_7B61_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171127T061938_7B61_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171127T061938_7B61_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171127T061938_7B61_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 06:19 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-24.889222066539528,-56.88832522576444</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080044_9B01_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-57.184249999999999,-65.681426999999758 -59.017623440037561,-65.240948402338134 -60.783297818417957,-64.777525300529092 -61.862979999999986,-64.473906999999642 -60.775317267021691,-63.738366119469696 -59.995007000000001,-63.178592999999452 -58.330549454229946,-63.632822469016183 -56.607131796766566,-64.065555233725377 -55.464474000000003,-64.332610999999616 -56.427340899932972,-65.108065702896269 -57.184249999999999,-65.681426999999758</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:00</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080044_9B01_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080044_9B01_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080044_9B01_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080044_9B01_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080044_9B01_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:00 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-58.659377331890582,-64.436942711888719</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SDH_20171126T204050_2426_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-16.355228,-66.368934999999809 -14.416294411548378,-65.964108385694828 -12.545421271030872,-65.534078378932421 -10.742866825960018,-65.080346308391071 -9.008330395864542,-64.604389021121094 -8.416178,-64.432525999999626 -7.269922493501722,-65.162220003727043 -6.052497079896375,-65.883619977626509 -4.758269391952525,-66.595614799943789 -3.381188833842338,-67.296977584094378 -3.126919999999999,-67.420592999999869 -4.966882716557095,-67.967068891575636 -6.900725758764756,-68.49115357957416 -8.931069537498612,-68.990914962340213 -11.059832708304192,-69.464332002359242 -11.724100999999997,-69.602187999999941 -12.977749348498238,-68.829705617737844 -14.14083170628383,-68.049914892383299 -15.221957628577494,-67.263909694389724 -16.228800502116961,-66.472655919819616 -16.355228,-66.368934999999809</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 26, 20:40</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SDH_20171126T204050_2426_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SDH_20171126T204050_2426_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SDH_20171126T204050_2426_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SDH_20171126T204050_2426_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SDH_20171126T204050_2426_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 26, 20:40 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-9.884530232025675,-67.024811090555502</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_EW_GRDM_1SSH_20171127T063232_9E53_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-159.361252000000007,-69.66587799999995 -157.20618425033075,-69.194909733012466 -155.151212813295587,-68.697173350016882 -153.194447945004384,-68.174727851270774 -151.333259545118523,-67.629542282036354 -150.98232999999999,-67.521094999999875 -149.498013106998314,-68.210152108142182 -147.915423601767969,-68.885477718200875 -146.345656999999989,-69.500953999999936 -148.254545431224273,-70.103271164815979 -150.282714685095755,-70.683593910282966 -152.43612482895665,-71.239593008209809 -154.720076235013352,-71.768766126222502 -155.115218999999996,-71.854484999999983 -156.692590518205748,-71.110013689019667 -158.147431824196389,-70.354135098184301 -159.361252000000007,-69.66587799999995</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 06:32</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_EW_GRDM_1SSH_20171127T063232_9E53_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_EW_GRDM_1SSH_20171127T063232_9E53_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_EW_GRDM_1SSH_20171127T063232_9E53_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_EW_GRDM_1SSH_20171127T063232_9E53_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_EW_GRDM_1SSH_20171127T063232_9E53_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 06:32 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-152.819639180075427,-69.699723719110608</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080404_D540_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-80.831642000000002,-75.264922999999996 -82.981245325266471,-74.553615684738759 -84.937135341823478,-73.82392679436451 -85.962233999999995,-73.405570999999981 -83.41983498328716,-72.887173768606701 -81.727126999999996,-72.504531999999969 -79.801462196590549,-73.203660885779072 -77.708557538032466,-73.883620517193279 -76.434562999999997,-74.26151999999999 -78.963633508969465,-74.86536392835589 -80.831642000000002,-75.264922999999996</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:04</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080404_D540_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080404_D540_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080404_D540_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080404_D540_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080404_D540_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:04 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-81.324377664433143,-73.884466504090625</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SSH_20171127T022529_A4C7_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-94.637718000000007,-71.318313999999972 -92.365323995630561,-70.809226038603214 -90.215552016734151,-70.272850401855251 -88.184315150059021,-69.711596265339921 -86.266771059416669,-69.127725772346764 -85.925010999999998,-69.017707999999942 -84.216147188049703,-69.67476420953767 -82.392324888659886,-70.314169346392973 -80.445631117531704,-70.933830678468254 -78.368190252826537,-71.53145243771975 -77.476607999999999,-71.769599999999969 -79.395833727689975,-72.44800504069903 -81.469417633272116,-73.106599017515165 -83.710626483105059,-73.742640749090555 -86.132893981613648,-74.35305663999641 -86.509544000000005,-74.441474999999997 -88.650716982966742,-73.754536885369234 -90.613645682564979,-73.048218762416525 -92.41562179024956,-72.325160737805135 -94.072501923227648,-71.587658301581627 -94.637718000000007,-71.318313999999972</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 02:25</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SSH_20171127T022529_A4C7_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SSH_20171127T022529_A4C7_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SSH_20171127T022529_A4C7_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SSH_20171127T022529_A4C7_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SSH_20171127T022529_A4C7_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 02:25 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-86.166552098948657,-71.729050579803314</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1A_EW_GRDM_1SDH_20171127T054509_5FE0_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-154.035766999999993,-64.582389999999648 -152.209190278685071,-64.202729896288204 -150.439031760640745,-63.799061733219531 -148.725939519637478,-63.372661393764261 -147.070112916434937,-62.92479634846876 -146.524733999999995,-62.769179999999395 -145.511951165453013,-63.511763230592372 -144.438896709146377,-64.248040529436963 -143.300849626843984,-64.977109670847597 -142.092705606812672,-65.697977136343013 -141.836792000000003,-65.844130999999777 -143.609456457484214,-66.355780390302371 -145.460977663608787,-66.845304136479626 -147.392607356601815,-67.31103299563641 -149.404979813214595,-67.751246430436979 -149.992828000000003,-67.871695999999886 -151.074069700758344,-67.087935775116065 -152.081743534338159,-66.298871050107877 -153.022546608914553,-65.505356989258672 -153.902461314423533,-64.708155031989051 -154.035766999999993,-64.582389999999648</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 05:45</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/108_S1pngthumbnailsmall/S1A_EW_GRDM_1SDH_20171127T054509_5FE0_S_1.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/106_S1jpgsmall/201711/S1A_EW_GRDM_1SDH_20171127T054509_5FE0_S_1.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/105_S1jpgfull/S1A_EW_GRDM_1SDH_20171127T054509_5FE0_S_1.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/111_S1jpeg2000_201711/S1A_EW_GRDM_1SDH_20171127T054509_5FE0_S_1.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1A_EW_GRDM_1SDH_20171127T054509_5FE0_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 05:45 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-148.082639493057911,-65.328976061582992</coordinates></Point>				</Placemark>	
+								<Placemark>
+					<name>S1B_IW_GRDH_1SSH_20171127T080429_16F7_S_1.tif</name>
+					<styleUrl>#transRedPoly</styleUrl>
+					<Polygon><outerBoundaryIs><LinearRing><coordinates>-85.795569999999998,-76.183479000000005 -87.839125001888831,-75.427635052794344 -89.677224151670984,-74.656532327827833 -90.625343000000001,-74.219680999999994 -87.823696620235467,-73.752711607006219 -85.963729999999998,-73.405097999999981 -84.107733862109939,-74.143943851221678 -82.070182997420247,-74.865986143762981 -80.831917000000004,-75.264983999999998 -83.695623856866987,-75.822004812784968 -85.795569999999998,-76.183479000000005</coordinates></LinearRing></outerBoundaryIs></Polygon>				</Placemark>
+				<Placemark>
+					<name>Nov 27, 08:04</name>
+					<description>
+						<![CDATA[ 
+						<h3>SAR Image:</h3>
+						<img src="http://www.polarview.aq/images/94_RSpngthumbnailsmall/S1B_IW_GRDH_1SSH_20171127T080429_16F7_S_1.tif.tn_small.jpg" alt="image">
+							<p><a href="http://www.polarview.aq/images/92_jpgsmall/S1B_IW_GRDH_1SSH_20171127T080429_16F7_S_1.tif.jpg">Link to low-res JPEG image</a></p>
+							<p><a href="http://www.polarview.aq/images/91_jpgfull/S1B_IW_GRDH_1SSH_20171127T080429_16F7_S_1.tif.final.jpg">Link to high-res JPEG image</a></p>
+							<p><a href="http://bslmagb.nerc-bas.ac.uk/iwsviewer/?image=DataPolarview/90_jpeg2000/S1B_IW_GRDH_1SSH_20171127T080429_16F7_S_1.tif.8bit.jp2">Link to lossy JPEG2000 stream</a></p>
+							<hr />
+							<p><h4>Name:</h4>S1B_IW_GRDH_1SSH_20171127T080429_16F7_S_1.tif</p>
+							<p><h4>Acquisition time:</h4>Nov 27, 08:04 UTC</p>
+							<hr />
+							]]>
+					</description>
+
+					<styleUrl>#pointStyleMap</styleUrl>
+					<Point><coordinates>-85.895058873795975,-74.793354181973285</coordinates></Point>				</Placemark>	
+						</Document>
+	</kml>
+	
