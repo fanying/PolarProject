@@ -3,7 +3,7 @@ import shutil
 import threading
 import time
 
-import PolarNavigatorServer.Antarctic.mac.server.modisProcessing.main_processing
+import modisProcessing.main_processing
 
 
 class check_process(threading.Thread):
@@ -110,7 +110,7 @@ class check_process(threading.Thread):
                     #         from shutil import move
                     #         move(src_file, dst_file)
 
-                    newname, iscrop, crop_name = PolarNavigatorServer.Antarctic.mac.server.modisProcessing.main_processing.updateRaster(
+                    newname, iscrop, crop_name = modisProcessing.main_processing.updateRaster(
                                 filename, ulx, uly, lrx, lry)
                             # shutil.move(sarname, dst)
                         # shutil.rmtree(src + sar_folder_name)
