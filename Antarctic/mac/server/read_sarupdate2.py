@@ -137,7 +137,13 @@ def if_cover(tar_xy_range, the_xy_range):
 # with open(updatesar_name, "wb") as code:
 #     code.write(data)
 
-def check_update(updatesar_name, download_folder, tar_xy_range):
+def check_update(updatesar_name, download_folder, tar_xy_range, Finish_Modis_data):
+    Finish_Modis_name = open(Finish_Modis_data, 'r')
+    Finish_modis_list = []
+    for line in Finish_Modis_name:
+        # file_name = str(line).replace(str(line).split(".")[4], '*')
+        Finish_modis_list.append(line.strip('\n'))
+    Finish_Modis_name.close()
 
     dom = xml.dom.minidom.parse(updatesar_name)
     tifnames = dom.getElementsByTagName('name')
@@ -177,15 +183,30 @@ def check_update(updatesar_name, download_folder, tar_xy_range):
                 #     print('not exit')
                 #     print(download_folder + tifname.firstChild.data + '.tar.gz')
                 # exit()
-                if not os.path.exists(download_folder + tifname.firstChild.data + '.tar.gz'):
+                name = tifname.firstChild.data.split('.')[0]
+                if  name in Finish_modis_list:
+                    print(tifname.firstChild.data + ' Have Download!')
+                    continue
+                if not os.path.exists(download_folder + tifname.firstChild.data + '.tar.gz') :
                     print('start download ', tifname.firstChild.data, ' :', time.asctime(time.localtime(time.time())))
 
-                    sarurl = 'http://www.polarview.aq/images/104_S1geotiff/' + tifname.firstChild.data +'.tar.gz'
-                    f = urllib2.urlopen(sarurl)
-                    data = f.read()
-                    with open(download_folder + tifname.firstChild.data +'.tar.gz', "wb") as code:
-                        code.write(data)
+                    # sarurl = 'http://www.polarview.aq/images/104_S1geotiff/' + tifname.firstChild.data +'.tar.gz'
+                    # f = urllib2.urlopen(sarurl)
+                    # data = f.read()
+                    # with open(download_folder + tifname.firstChild.data +'.tar.gz', "wb") as code:
+                    #     code.write(data)
                     print('download successfully ', tifname.firstChild.data, ' :', time.asctime(time.localtime(time.time())))
+                    try:
+                        Finish_file_object = open(Finish_Modis_data, 'a')
+                        try:
+
+                            Finish_file_object.write(name + '\n')
+                        except:
+                            print("Warning: write error")
+                        finally:
+                            Finish_file_object.close()
+                    except:
+                        print("Warning: can’t open file")
 
             count += 1
     print('count', count)
@@ -222,6 +243,16 @@ def datetime_toString(dt):
 
 # if __name__ == "__main__":
 def maindownloading(EastBoundingCoord, WestBoundingCoord, SouthBoundingCoord, NorthBoundingCoord):
+    Finish_Modis_data = os.getcwd() + '/modisdownload/Finish_modis_info.txt'
+    if os.path.exists(Finish_Modis_data):
+        Finish_day = time.strftime('%j', time.localtime(os.stat(Finish_Modis_data).st_mtime))
+        Cur_day = time.strftime('%j', time.localtime(time.time()))
+        if abs(int(Finish_day) - int(Cur_day)) > 0:
+            os.remove(Finish_Modis_data)
+    else:
+        f  = open(Finish_Modis_data,'w')
+        f.close()
+
 
     # 输出
     today = datetime.date.today()
@@ -285,7 +316,7 @@ def maindownloading(EastBoundingCoord, WestBoundingCoord, SouthBoundingCoord, No
     print('maxx, minx, miny, maxy:', tar_xy_range.maxx, tar_xy_range.minx, tar_xy_range.miny, tar_xy_range.maxy)
     incount = 0
     for updatesar_name in dates:
-        incount += check_update(updatesar_name, download_folder, tar_xy_range)
+        incount += check_update(updatesar_name, download_folder, tar_xy_range, Finish_Modis_data)
         if incount > 8:
             break
 
@@ -311,10 +342,10 @@ def maindownloading(EastBoundingCoord, WestBoundingCoord, SouthBoundingCoord, No
     return True
 
 if __name__ == "__main__":
-    EastBoundingCoord = 70
-    WestBoundingCoord = 75
-    SouthBoundingCoord = -70
-    NorthBoundingCoord = -65
+    EastBoundingCoord = 162
+    WestBoundingCoord = 170
+    SouthBoundingCoord = -73
+    NorthBoundingCoord = -75
     maindownloading(EastBoundingCoord, WestBoundingCoord, SouthBoundingCoord, NorthBoundingCoord)
 
 

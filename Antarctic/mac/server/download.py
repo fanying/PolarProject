@@ -1,6 +1,6 @@
 import urllib2
 import datetime
-
+import os
 def getYesterday():
     today = datetime.date.today()
     oneday = datetime.timedelta(days=1)
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     f_xml = urllib2.urlopen(updateurl)
     data = f_xml.read()
     # update_folder = 'modisProcessing/SAR/Update/'
-    update_folder = '/media/fany/Study/LAMDA/SOUTH2/PolarNavigatorServer/Antarctic/mac/server/SAR/Update/'
+    update_folder = os.getcwd() + '/modisProcessing/SAR/Update/'
     # update_folder = 'C:/Users/fany/Desktop/Update/'
     today = datetime.date.today()
     today_date =  datetime_toString(today)
