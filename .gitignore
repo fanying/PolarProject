@@ -1,6 +1,7 @@
 /Arctic/win/server/modisProcessing/SAR/Ice/
 /Arctic/win/server/modisProcessing/SAR/Proba/
 /Arctic/win/server/modisProcessing/SAR/tiff/
+/Arctic/win/server/test/
 *.pyc
 *.txt
 *.tar.gz
