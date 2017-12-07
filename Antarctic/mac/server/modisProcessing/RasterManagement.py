@@ -658,23 +658,29 @@ def getRGBfromProb(prob):
             flat_G[i] = 0
             flat_B[i] = 0
         else:
-            currprob = flat_prob[i]
-            currinterval = int(flat_prob[i]/0.1)
-            # print flat_prob[i]
-            # print int(flat_prob[i]/0.1)
-            # if currprob > 0.55 and currprob < 0.8:
-            #     # currprob = flat_prob[i]
-            #     currprob = np.sqrt(currprob)
-            #     currinterval = int(flat_prob[i] / 0.1)
 
-                # currinterval = int(np.ceil(flat_prob[i] / 0.1))
-            if currinterval != 10:
-                flat_R[i] = int(Rslipts[currinterval]+(Rslipts[currinterval+1]-Rslipts[currinterval])*(currprob-currinterval*0.1)/0.1)
-                flat_G[i] = int(Gslipts[currinterval]+(Gslipts[currinterval+1]-Gslipts[currinterval])*(currprob-currinterval*0.1)/0.1)
-                flat_B[i] = int(Bslipts[currinterval]+(Bslipts[currinterval+1]-Bslipts[currinterval])*(currprob-currinterval*0.1)/0.1)
+            currprob = flat_prob[i]
+            if currprob == -1:
+                flat_R[i] = 255
+                flat_G[i] = 255
+                flat_B[i] = 0
             else:
-                flat_R[i] = 96
-            # print flat_R[i], flat_G[i], flat_B[i]
+                currinterval = int(flat_prob[i]/0.1)
+                # print flat_prob[i]
+                # print int(flat_prob[i]/0.1)
+                # if currprob > 0.55 and currprob < 0.8:
+                #     # currprob = flat_prob[i]
+                #     currprob = np.sqrt(currprob)
+                #     currinterval = int(flat_prob[i] / 0.1)
+
+                    # currinterval = int(np.ceil(flat_prob[i] / 0.1))
+                if currinterval != 10:
+                    flat_R[i] = int(Rslipts[currinterval]+(Rslipts[currinterval+1]-Rslipts[currinterval])*(currprob-currinterval*0.1)/0.1)
+                    flat_G[i] = int(Gslipts[currinterval]+(Gslipts[currinterval+1]-Gslipts[currinterval])*(currprob-currinterval*0.1)/0.1)
+                    flat_B[i] = int(Bslipts[currinterval]+(Bslipts[currinterval+1]-Bslipts[currinterval])*(currprob-currinterval*0.1)/0.1)
+                else:
+                    flat_R[i] = 96
+                # print flat_R[i], flat_G[i], flat_B[i]
 
     R = np.reshape(flat_R, (l, w))
     G = np.reshape(flat_G, (l, w))
@@ -698,31 +704,31 @@ def cropandmask(ulx, uly, lrx, lry, fname, folder = 'modisProcessing/SAR/tiff/ar
     x_size = dataset.RasterXSize # Raster xsize
     y_size = dataset.RasterYSize # Raster ysize
     print x_size, y_size
-    # projection = dataset.GetProjection()
-    # spatialRef = osr.SpatialReference()
-    # spatialRef.ImportFromWkt(projection)
-    # print spatialRef
+    projection = dataset.GetProjection()
+    spatialRef = osr.SpatialReference()
+    spatialRef.ImportFromWkt(projection)
+    print spatialRef
 
-    # wgs84_wkt = """
-    # GEOGCS["WGS 84",
-    #     DATUM["WGS_1984",
-    #         SPHEROID["WGS 84",6378137,298.257223563,
-    #             AUTHORITY["EPSG","7030"]],
-    #         AUTHORITY["EPSG","6326"]],
-    #     PRIMEM["Greenwich",0,
-    #         AUTHORITY["EPSG","8901"]],
-    #     UNIT["degree",0.01745329251994328,
-    #         AUTHORITY["EPSG","9122"]],
-    #     AUTHORITY["EPSG","4326"]]"""
-    # wgs84SpatialRef = osr.SpatialReference()
-    # wgs84SpatialRef.ImportFromWkt(wgs84_wkt)
+    wgs84_wkt = """
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0,
+            AUTHORITY["EPSG","8901"]],
+        UNIT["degree",0.01745329251994328,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["EPSG","4326"]]"""
+    wgs84SpatialRef = osr.SpatialReference()
+    wgs84SpatialRef.ImportFromWkt(wgs84_wkt)
 
     # tx = osr.CoordinateTransformation(wgs84SpatialRef, spatialRef)
     # (ulx, uly, tmp) = tx.TransformPoint(ullon, ullat)
     # (lrx, lry, tmp) = tx.TransformPoint(lrlon, lrlat)
-
-    print ulx, uly
-    print lrx, lry
+    #
+    # print ulx, uly
+    # print lrx, lry
 
     geo_t = dataset.GetGeoTransform()
     print geo_t
@@ -810,46 +816,47 @@ def cropandmask(ulx, uly, lrx, lry, fname, folder = 'modisProcessing/SAR/tiff/ar
     # jpg_crop_mask_array = np.array(jpg_crop)
     # print jpg_crop_mask_array.shape
 
-    # magicnum = 3430000
-    # tx2 = osr.CoordinateTransformation(wgs84SpatialRef, spatialRef)
-    # mask = np.load('mask.npy')
+    magicnum = 3430000
+    tx2 = osr.CoordinateTransformation(wgs84SpatialRef, spatialRef)
+    mask = np.load('modisProcessing/mask2.npy')
 
     # print mask.shape
     prob_crop = np.copy(prob[ulj/20:lrj/20, uli/20:lri/20, :])
     ice_crop = np.copy(ice[ulj/20:lrj/20, uli/20:lri/20])
     # prob_crop = np.copy(prob[ulj:lrj, uli:lri, :])
     # ice_crop = np.copy(ice[ulj:lrj, uli:lri])
-    # for i in range(0, lrj/20-ulj/20):
-    #     for j in range(0, lri/20-uli/20):
-    #         # print i, j
-    #         (x, y, tmp) = tx2.TransformPoint(lonlat_crop[i,j,0], lonlat_crop[i,j,1])
-    #         # print x, y
-    #         if x>-magicnum and x<magicnum and y>-magicnum and y< magicnum:
-    #             maskj = int(np.floor((x + magicnum)/5000))
-    #             maski = int(np.floor((y - magicnum)/-5000))
-    #             masknum = mask[maski, maskj]
-    #             # print maski, maskj, masknum
-    #             if masknum == 255:
-    #                 prob_crop[i,j,0] = 0.0
-    #                 prob_crop[i,j,1] = 0.0
-    #                 prob_crop[i,j,2] = 1.0
-    #                 ice_crop[i,j] = 1
-    #             elif masknum == 128:
-    #                 if np.isnan(prob_crop[i,j,0]):
-    #                     prob_crop[i,j,0] = 0.0
-    #                     prob_crop[i,j,1] = 0.05
-    #                     prob_crop[i,j,2] = 0.95
-    #                     ice_crop[i,j] = 1
-    #                 else:
-    #                     prob_crop[i,j,0] = 0.2*prob_crop[i,j,0]
-    #                     prob_crop[i,j,1] = 0.2*prob_crop[i,j,1]
-    #                     prob_crop[i,j,2] = 0.2*prob_crop[i,j,2]+0.8
-    #                     ice_crop[i,j] = 1
-    #             # else:
-    #             #     prob_crop[i,j,0] = 0.8*prob_crop[i,j,0]
-    #             #     prob_crop[i,j,1] = 0.8*prob_crop[i,j,1]
-    #             #     prob_crop[i,j,2] = 0.8*prob_crop[i,j,2]
-    # # print prob_crop.shape
+    pickle.dump(prob_crop, open(folder + crop_name + '_crop.prob', 'wb'), protocol=2)
+    for i in range(0, lrj/20-ulj/20):
+        for j in range(0, lri/20-uli/20):
+            # print i, j
+            (x, y, tmp) = tx2.TransformPoint(lonlat_crop[i,j,0], lonlat_crop[i,j,1])
+            # print x, y
+            if x>-magicnum and x<magicnum and y>-magicnum and y< magicnum:
+                maskj = int(np.floor((x + magicnum)/5000))
+                maski = int(np.floor((y - magicnum)/-5000))
+                masknum = mask[maski, maskj]
+                # print maski, maskj, masknum
+                if masknum == 255:
+                    prob_crop[i,j,0] = 0.0
+                    prob_crop[i,j,1] = 0.0
+                    prob_crop[i,j,2] = -1
+                    ice_crop[i,j] = 1
+                elif masknum == 128:
+                    if np.isnan(prob_crop[i,j,0]):
+                        prob_crop[i,j,0] = 0.0
+                        prob_crop[i,j,1] = 0.05
+                        prob_crop[i,j,2] = 0.95
+                        ice_crop[i,j] = 1
+                    else:
+                        prob_crop[i,j,0] = 0.2*prob_crop[i,j,0]
+                        prob_crop[i,j,1] = 0.2*prob_crop[i,j,1]
+                        prob_crop[i,j,2] = 0.2*prob_crop[i,j,2]+0.8
+                        ice_crop[i,j] = 1
+                # else:
+                #     prob_crop[i,j,0] = 0.8*prob_crop[i,j,0]
+                #     prob_crop[i,j,1] = 0.8*prob_crop[i,j,1]
+                #     prob_crop[i,j,2] = 0.8*prob_crop[i,j,2]
+    # print prob_crop.shape
     pickle.dump(prob_crop, open(folder + crop_name + '_crop.prob', 'wb'), protocol=2)
     pickle.dump(ice_crop, open(folder + crop_name + '_crop.ice', 'wb'), protocol=2)
 

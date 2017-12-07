@@ -12,7 +12,7 @@ RESOLUTION = 120
 
 def reprojectingTiff(filename, folder = 'modisProcessing/SAR/tiff/'):
     print filename
-
+    print(folder+filename+'.tif')
     dataset = gdal.Open(folder+filename+'.tif', GA_Update)
     x_size = dataset.RasterXSize # Raster xsize
     y_size = dataset.RasterYSize # Raster ysize

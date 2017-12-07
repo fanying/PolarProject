@@ -92,6 +92,6 @@ if __name__=="__main__":
             if filename.startswith('S1') and filename.endswith('.tif'):
                 filelist.append('.'.join(filename.split('.')[0:-1]))
     print filelist
-    # for filename in filelist:
-    #     print('--------------------------------------', filename)
-    #     updateRaster(filename, ulx, uly, lrx, lry)
+    for filename in filelist:
+        print('--------------------------------------', filename)
+        updateRaster(filename, ulx, uly, lrx, lry)

@@ -190,11 +190,11 @@ def check_update(updatesar_name, download_folder, tar_xy_range, Finish_Modis_dat
                 if not os.path.exists(download_folder + tifname.firstChild.data + '.tar.gz') :
                     print('start download ', tifname.firstChild.data, ' :', time.asctime(time.localtime(time.time())))
 
-                    # sarurl = 'http://www.polarview.aq/images/104_S1geotiff/' + tifname.firstChild.data +'.tar.gz'
-                    # f = urllib2.urlopen(sarurl)
-                    # data = f.read()
-                    # with open(download_folder + tifname.firstChild.data +'.tar.gz', "wb") as code:
-                    #     code.write(data)
+                    sarurl = 'http://www.polarview.aq/images/104_S1geotiff/' + tifname.firstChild.data + '.tar.gz'
+                    f = urllib2.urlopen(sarurl)
+                    data = f.read()
+                    with open(download_folder + tifname.firstChild.data + '.tar.gz', "wb") as code:
+                        code.write(data)
                     print('download successfully ', tifname.firstChild.data, ' :', time.asctime(time.localtime(time.time())))
                     try:
                         Finish_file_object = open(Finish_Modis_data, 'a')
@@ -342,10 +342,10 @@ def maindownloading(EastBoundingCoord, WestBoundingCoord, SouthBoundingCoord, No
     return True
 
 if __name__ == "__main__":
-    EastBoundingCoord = 162
-    WestBoundingCoord = 170
-    SouthBoundingCoord = -73
-    NorthBoundingCoord = -75
+    EastBoundingCoord = 120
+    WestBoundingCoord = 140
+    SouthBoundingCoord = -75
+    NorthBoundingCoord = -55
     maindownloading(EastBoundingCoord, WestBoundingCoord, SouthBoundingCoord, NorthBoundingCoord)
 
 

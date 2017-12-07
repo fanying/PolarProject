@@ -19,7 +19,9 @@ if __name__ == "__main__":
     f_xml = urllib2.urlopen(updateurl)
     data = f_xml.read()
     # update_folder = 'modisProcessing/SAR/Update/'
-    update_folder = os.getcwd() + '/modisProcessing/SAR/Update/'
+    update_folder = '/Users/PolarProject/Desktop/antarctic_server_sar/PolarProject/Antarctic/mac/server/modisProcessing/SAR/Update/'
+
+
     # update_folder = 'C:/Users/fany/Desktop/Update/'
     today = datetime.date.today()
     today_date =  datetime_toString(today)
